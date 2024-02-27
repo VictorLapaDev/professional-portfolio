@@ -1,0 +1,74 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    background-color: rgb(50, 104, 104);
+}
+
+header .titulo_header{
+    font-size: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(12, 154, 154);
+}
+
+.sobre_mim{
+    width: 500px;
+}
+
+.foto_minha{
+    width: 300px;
+}
+
+#eu{
+    width: 300px;
+    filter: drop-shadow(10px 10px rgb(130, 190, 190));
+}
+
+.container-1{
+    display: grid;
+    place-items: center;
+}
+
+.redes-socias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-socias i{
+    font-size: 30px;
+    padding: 5px 60px;
+}
+
+#button{
+    margin-top: 10px;
+    border: solid 2px rgb(50, 104, 104);
+    background-color: rgb(130, 190, 190);
+    border-radius: 10px;
+    color: rgb(50, 104, 104);
+    padding: 10px 15px;
+    cursor: pointer;
+}
